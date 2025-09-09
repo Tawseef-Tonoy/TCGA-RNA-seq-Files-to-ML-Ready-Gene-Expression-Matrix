@@ -29,7 +29,7 @@ def process_single_tsv(filepath):
 
 def create_tcga_expression_matrix(root_folder, output_csv='tcga_brca_expression_matrix.csv'):
     
-    print("🔍 Searching for TSV files...")
+    print(" Searching for TSV files...")
     
     # Dictionary to store all sample data
     sample_data = {}
