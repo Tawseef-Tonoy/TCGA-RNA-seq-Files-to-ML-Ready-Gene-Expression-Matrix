@@ -107,7 +107,7 @@ def verify_output(csv_path):
         print(f" File not found: {csv_path}")
         return
     
-    print(f"\n🔍 Verifying output file: {csv_path}")
+    print(f"\n Verifying output file: {csv_path}")
     
     # Read the CSV and display info
     df = pd.read_csv(csv_path, index_col=0)
